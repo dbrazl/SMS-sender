@@ -1,0 +1,16 @@
+{
+  "name": "SNS-aws",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "sucrase-node server"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.724.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "sucrase": "^3.15.0"
+  }
+}
